@@ -1,23 +1,23 @@
 {
-    "useWorkspaces": true, 
-    "version": "0.1.0", 
-    "npmClient": "npm", 
-    "packages": [ 
-        "packages/*"
-    ],
-    "command": { 
-        "publish": { 
-            "ignoreChanges": [ 
-                ".gitignore",
-                "*.log",
-                "*.md"
-            ]
-        },
-        "bootstrap": { 
-            "ignore": "npm-*",  
-            "npmClientArgs": [ 
-                "--no-package-lock"
-            ]
-        }
+  "useWorkspaces": true,
+  "version": "0.1.1",
+  "npmClient": "npm",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        ".gitignore",
+        "*.log",
+        "*.md"
+      ]
+    },
+    "bootstrap": {
+      "ignore": "npm-*",
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
+  }
 }
